@@ -22,3 +22,11 @@ $ python MF.py [data_set_name] [data_size]
 $ python MF.py ratings.csv 1000
 ```
 - It means that "takes 1000 rows from ratings.csv file"
+
+### notice
+- If there are an error to get data, then the base data set in the python file is used
+- So if you just want to test how the package works, use following command
+
+``` 
+$ python MF.py
+```
