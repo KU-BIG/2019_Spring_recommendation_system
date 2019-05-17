@@ -21,4 +21,4 @@ $ python MF.py [data_set_name] [data_size]
 ```
 $ python MF.py ratings.csv 1000
 ```
-- It means that takes 1000 rows from ratings.csv file
+- It means that "takes 1000 rows from ratings.csv file"
