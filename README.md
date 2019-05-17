@@ -14,8 +14,8 @@ $ python MF.py [data_set_name] [data_size]
 ```
 
 ### parsing args
-- **[data_set_name]** : ratings.csv (contains file extention)
-- **[data_size]** : 1000 (must be integer)
+- **[data_set_name]** : data set file name (contains file extention)
+- **[data_size]** : number of rows to take from data set file
 
 ### example
 ```
