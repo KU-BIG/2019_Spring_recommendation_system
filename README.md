@@ -1,10 +1,9 @@
 # Recommendation system for movie
 
 ## Data_set
-- first column : user_id
-- second column : movie_id
-- third column : rating
-- user_id, movie_id must be integer and rating can be real number(integer is recommended)
+- first column : user_id (must be integer)
+- second column : movie_id (must be integer)
+- third column : rating 
 
 
 ## Usage
@@ -25,7 +24,7 @@ $ python MF.py ratings.csv 1000
 
 ### notice
 - If there are an error to get data, then the base data set in the python file is used
-- So if you just want to test how the package works, use following command
+- So if you just want to check the result looks like, use following command
 
 ``` 
 $ python MF.py
